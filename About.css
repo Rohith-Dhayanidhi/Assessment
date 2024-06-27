@@ -1,0 +1,192 @@
+/* header */
+.parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    position: relative;
+    background-color: tomato;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    .head1{
+        display: flex;
+        gap: 5px;
+        img{
+            height: 50px;
+            border-radius: 3px;
+        }
+        h1{
+            position: absolute;
+            top: -15px;
+            left: 68px;
+            color: white;
+            font-weight: bolder;
+        }
+    }
+}
+.head2 ul{
+    display: flex;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+}
+.head2 ul a:hover{
+    background-color: white;
+    color: tomato;
+    border-radius: 10px;
+}
+
+/* main */
+.divimg{
+    background-image: url(./About\ img.jpg);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.divimg img{
+    position: relative;
+    left: 250px;
+    border-radius: 10px;
+    width: 900px;
+    margin-top: 10px;
+    opacity: 1;
+}
+.mai{
+    margin: 10px 200px 10px 200px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    padding: 20px;
+    animation: About-us 2s ease-in-out;
+}
+@keyframes About-us{
+    0%{
+        transform: translateX(+100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.ma0 span{
+    color: tomato;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.mah2 h2{
+    color: tomato;
+    font-size: 25px;
+}
+.ma1{
+    display: flex;
+    justify-content: space-around;
+}
+.ma1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.ma1 img:hover{
+    rotate:Y 360deg;
+    transition: 2s;
+    scale: 1.2;
+}
+.ma1 span{
+    color: tomato;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.ma1 p{
+    margin-left: 10px;
+}
+.ma2 p{
+    margin-left: 10px;
+}
+.ma2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.ma2 span{
+    color: tomato;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.ma2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.ma2 img:hover{
+    rotate:Y 360deg;
+    transition: 2s;
+    scale: 1.2;
+}
+
+/* footer */
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 229, 229);
+    border-radius: 20px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin: 5px 100px 5px 100px ;
+    padding: 10px;
+}
+.foot1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.foot1 img:hover{
+    rotate:Y 360deg;
+    transition: 2s;
+}
+.foot2 ul a{
+    text-decoration: none;
+    color: black;
+}
+.abspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot3 ul a{
+    text-decoration: none;
+    color: black;
+}
+.gsspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot4 ul a{
+    text-decoration: none;
+    color: black;
+}
+.opspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 15px;
+}
+.final1{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.final2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.final a{
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
