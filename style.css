@@ -206,6 +206,10 @@
     font-weight: bolder;
     transform: scale(1.2);
 }
+.para1{
+    border-bottom: 50px solid lightgray;
+    margin: 10px;
+}
 
 /* footer */
 .foot{
@@ -231,7 +235,7 @@
     text-decoration: none;
     color: black;
 }
-.abspan{
+.agbspan{
     color: tomato;
     font-weight: bolder;
 }
@@ -239,11 +243,19 @@
     text-decoration: none;
     color: black;
 }
-.gsspan{
+.abspan{
     color: tomato;
     font-weight: bolder;
 }
 .foot4 ul a{
+    text-decoration: none;
+    color: black;
+}
+.gsspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot5 ul a{
     text-decoration: none;
     color: black;
 }

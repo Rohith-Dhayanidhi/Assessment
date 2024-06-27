@@ -1,0 +1,272 @@
+/* header */
+.parent{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    position: relative;
+    background-color:navy;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    .head1{
+        display: flex;
+        gap: 5px;
+        img{
+            height: 50px;
+            border-radius: 3px;
+        }
+        h1{
+            position: absolute;
+            top: -15px;
+            left: 65px;
+            color: white;
+            font-weight: bolder;
+        }
+    }
+}
+.head2 ul{
+    display: flex;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+}
+.head2 ul a:hover{
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+}
+
+/* main */
+.con{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: #1b2230;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-image: url(./Contact\ us\ img.jpg);
+    background-size: 100%;
+    position: relative;
+    border-radius: 15px;
+    animation: Contact-us-img 3s ease-in-out;
+}
+@keyframes Contact-us-img{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.con h2{
+    position: absolute;
+    right: 600px;
+    top: 130px;
+}
+.home{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    right: 400px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+}       
+.home a{
+    text-decoration: none;
+    color: blue;
+}
+.home div p{
+    color: blue;
+    position: absolute;
+    top: -20px;
+    left: 85px;
+}
+.contact{
+    background-color: #1b2230;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 120px 20px 120px;
+}
+.contact:hover{
+    scale: 1.2;
+    transition: 2s;
+}
+.contact div h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.con0{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.con1 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.con1 p{
+    color: white;
+}
+.con2 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.con2 p{
+    color: white;
+}
+.con3 span{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.con3 p{
+    color: white;
+}
+.cont0{
+    font-family: "Poppins", sans-serif;
+    margin: 10px 200px 10px 200px;
+}
+.cont0 div h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #1b2230;
+    font-weight: bold;
+}
+.cont1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.cont1 span{
+    color: tomato;
+    font-size: 20px ;
+}
+.cont2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.cont2 span{
+    color: tomato;
+    font-size: 20px ;
+}
+.cont3{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.cont3 span{
+    color: tomato;
+    font-size: 20px ;
+}
+.cont4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+    font-size: 15px;
+}
+.cont4 span{
+    color: tomato;
+    font-size: 20px ;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    margin: 10px 150px 10px 150px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+.para1{
+    border-bottom: 50px solid lightgray;
+}
+
+/* footer */
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#1b2230;
+    border-radius: 20px;
+    border-bottom: 5px solid darkgray;
+    border-top: 5px solid darkgray;
+    margin-top: 20px;
+    margin: 5px 100px 5px 100px ;
+    padding: 10px;
+}
+.foot1 p{
+    color: white;
+}
+.foot1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.foot1 img:hover{
+    rotate:Y 360deg;
+    transition: 2s;
+}
+.foot2 ul a{
+    text-decoration: none;
+    color: white;
+}
+.agbspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot3 ul a{
+    text-decoration: none;
+    color: white;
+}
+.abspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot4 ul a{
+    text-decoration: none;
+    color: white;
+}
+.gsspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot5 ul a{
+    text-decoration: none;
+    color: white;
+}
+.opspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: navy;
+    padding: 20px;
+    border-radius: 15px;
+}
+.final1{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.final2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.final2 a{
+    color: white;
+    font-size: 18px;
+}

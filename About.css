@@ -41,17 +41,36 @@
 
 /* main */
 .divimg{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
     background-image: url(./About\ img.jpg);
-    opacity: 0.7;
+    position: relative;
     border-radius: 10px;
+    animation: Aboutus-img 2s ease-in-out;
+}
+@keyframes Aboutus-img{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 .divimg img{
     position: relative;
     left: 250px;
     border-radius: 10px;
-    width: 900px;
+    width: 700px;
     margin-top: 10px;
-    opacity: 1;
+}
+.divimg h2{
+    position: absolute;
+    right: 600px;
+    top: 130px;
 }
 .mai{
     margin: 10px 200px 10px 200px;
@@ -123,6 +142,9 @@
     transition: 2s;
     scale: 1.2;
 }
+.para1{
+    border-bottom: 50px solid lightgray;
+}
 
 /* footer */
 .foot{
@@ -148,7 +170,7 @@
     text-decoration: none;
     color: black;
 }
-.abspan{
+.agbspan{
     color: tomato;
     font-weight: bolder;
 }
@@ -156,11 +178,19 @@
     text-decoration: none;
     color: black;
 }
-.gsspan{
+.abspan{
     color: tomato;
     font-weight: bolder;
 }
 .foot4 ul a{
+    text-decoration: none;
+    color: black;
+}
+.gsspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot5 ul a{
     text-decoration: none;
     color: black;
 }

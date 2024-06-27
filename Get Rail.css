@@ -219,6 +219,9 @@
 .FAQ div h2{
     font-size: 30px;
 }
+.para1{
+    border-bottom: 50px solid lightgray;
+}
 
 /* footer */
 .foot{
@@ -226,8 +229,8 @@
     justify-content: space-evenly;
     background-color:#1b2230;
     border-radius: 20px;
-    border-bottom: 5px solid black;
-    border-top: 5px solid black;
+    border-bottom: 5px solid darkgray;
+    border-top: 5px solid darkgray;
     margin-top: 20px;
     margin: 5px 100px 5px 100px ;
     padding: 10px;
@@ -248,19 +251,27 @@
     text-decoration: none;
     color: white;
 }
-.abspan{
+.agbspan{
     color: tomato;
     font-weight: bolder;
 }
 .foot3 ul a{
     text-decoration: none;
-    color:white;
+    color: white;
+}
+.abspan{
+    color: tomato;
+    font-weight: bolder;
+}
+.foot4 ul a{
+    text-decoration: none;
+    color: white;
 }
 .gsspan{
     color: tomato;
     font-weight: bolder;
 }
-.foot4 ul a{
+.foot5 ul a{
     text-decoration: none;
     color: white;
 }
