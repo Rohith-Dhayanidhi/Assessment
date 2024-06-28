@@ -73,6 +73,11 @@
     border-radius: 20px;
     height: 150px;
 }
+.first marquee h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color:whitesmoke
+}
 .first1 button:hover{
     background-color: white;
     color: tomato;
@@ -91,36 +96,68 @@
             height: 250px;
             width: 300px;
         }
-    }
+        h2{
+            color: tomato;
+        }
+    } 
     .art1{
         width: 1500px;
         border: 8px solid lightgray;
         border-style: groove;
         margin: 10px;
+        background-color: antiquewhite;
+        p{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+        }
     }
     .art2{
         width: 1500px;
         border: 8px solid lightgray;
         border-style: groove;
         margin: 10px;
+        background-color: aliceblue;
+        p{
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+        }
     }
 }
 .sec{
     display: flex;
     justify-content: space-between;
     margin: 10px 20px 30px 40px;
+    position: relative;
     .sec2 img{
         height: 400px;
         width: 400px;
         border-radius: 10px;
+        position: absolute;
+        animation: aside-train 2s linear 0s infinite alternate;
     }
+}
+@keyframes  aside-train {
+   from{
+    right: 0px;
+   }
+   to{
+    right: 200px;
+   }
 }
 .sec1 span{
     font-weight: bolder;
 }
-.sec1 a{
+.sec1 span a{
     text-decoration: none;
+    color: tomato;
+    font-size: 20px;
 }
+.sec1 span a:hover{
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+}
+
 .sec1 button{
     background-color: tomato;
     color: white;
@@ -128,6 +165,7 @@
     width: 150px;
     height: 50px; 
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .sec1 button:hover{
     background-color: white;
@@ -151,20 +189,36 @@
         width: 300px;
     }
 }
+.gplay:hover{
+    translate: 50px;
+    scale: 1.1;
+    transition: 2s;
+}
 .div0{
     display: flex;
     justify-content: space-between;
+    position: relative;
     .div1 video{
-        border-radius: 10px;
         height: 800px;
         width: 650px;
+        position: absolute;
+        animation: bus-run 2s linear 0s infinite alternate;
     }
     .div2{
-        background-color: blanchedalmond;
+        background: rgb(249,249,232);
+background: linear-gradient(90deg, rgba(249,249,232,1) 0%, rgba(245,226,128,1) 50%, rgba(246,217,96,1) 100%);
         width: 800px;
         border-radius: 10px;
         padding: 20px;
     }
+}
+@keyframes bus-run{
+    from{
+        top: 0px;
+       }
+       to{
+        top: 100px;
+       }
 }
 .div0 h2{
         color: tomato;
@@ -182,10 +236,15 @@
     margin-left: 100px;
     height: 100px;
     width: 800px;
+    .getdeals2:hover{
+
+    }
 }
 .getdeals2 div p{
     position: absolute;
-    right: 80px;
+    left: 50px;
+    font-size: 17px;
+    font-weight: bolder;
 }
 .getdeals2  div button{
     background-color: tomato;
